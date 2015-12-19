@@ -68,12 +68,12 @@ node* createnode(node *p,char c)
         if(parent->left==NULL)
         {
             parent->left=newnode;
-            cout<<"I'm left node:"<<newnode->value<<endl;
+            //cout<<"I'm left node:"<<newnode->value<<endl;
         }
         else
         {
             parent->right=newnode;
-            cout<<"I'm right node:"<<newnode->value<<endl;
+            //cout<<"I'm right node:"<<newnode->value<<endl;
         }
     }
     return p; // return root pointer
